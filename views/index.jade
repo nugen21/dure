@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	#main
+		#title Social network service example
+		#message
+			.left
+				.photo(style="background-image:url('#{picture}');")
+				input#author.author(type='text', value='#{name}')
+			.right
+				textarea
+				br
+				input#write_button(type='button', value='WRITE')
+		#wall
+			.item
