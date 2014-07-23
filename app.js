@@ -10,8 +10,8 @@ var express = require('express')
 	, user = require('./routes/user')
 	
 	, everyauth = require('everyauth')
-	, conf = require('./conf')
-	, socketio = require('socket.io');
+	, conf = require('./conf');
+//	, socketio = require('socket.io');
 
 everyauth.debug = true;
 
