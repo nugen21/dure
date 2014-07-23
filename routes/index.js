@@ -5,7 +5,7 @@
  
 var mongoose = require('mongoose');
 
-var db = mongoose.connect('mongodb://ds027699.mongolab.com:27699/heroku_app27669666'); //database에 연결합니다.
+var db = mongoose.connect('mongodb://dureDB:online14@ds027699.mongolab.com:27699/heroku_app27669666'); //database에 연결합니다.
 //var db = mongoose.connect('mongodb://localhost:27017');
 var Schema = mongoose.Schema;
 
