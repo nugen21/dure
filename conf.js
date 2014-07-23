@@ -1,7 +1,7 @@
 module.exports = {
     fb: {
-//        appId: '1448175292096655'
-//      , appSecret: '9adb2840fa1b107408bd9c857ecedf6f'
+//        appId: '1448684605379057'
+//      , appSecret: 'acb2bb1fee5bdc52711e0354b72e4e3e'
     	//테스트용 - issueMaker - Test1
     	appId: '1448684605379057'
       , appSecret: 'acb2bb1fee5bdc52711e0354b72e4e3e'    	
