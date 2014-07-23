@@ -185,5 +185,5 @@ $(document).ready(function () {
 	load();
 	
 	//5초마다 새로 고치도록 처리합니다.
-	timer = setInterval("load();", 5000);
+	timer = setInterval("load();", 10000);
 });
